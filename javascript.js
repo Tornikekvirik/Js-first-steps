@@ -44,12 +44,92 @@
 
 
 
-// const Status = 'ready'
+//  const Status = 'fail'
 
-// if (Status === 'ready') {
-//     console/log('მზადარის')
-// }
-//                                                     // რატო მიერორებს რედის და პენდინგს სწორად ამუშავებს ბლიად
-// if (Status === 'pending') {
+//  if (Status === 'ready') {
+//      console.log('მზადარის')
+//  }
+                                                    
+//  if (Status === 'pending') {
 //     console.log('მუშავდება')
+//  }
+//  else{
+//      console.log ('fail')
+//  }
+
+
+// const num1 = 42
+// const num2 = '42'
+// console.log (num1 === num2)
+
+
+// const isReady = true
+
+// // if (isReady){
+// //     console.log ('everyting ready')
+// // }
+// // else {
+// //     console.log ('fail')
+// // }
+
+// isReady ? console.log ('everyting ready') : console.log ('fail')
+
+
+// function calculateAge (year){
+//     return 2021 - year
 // }
+// const myAge = calculateAge (2000)
+
+// console.log (calculateAge (2000))
+// console.log (calculateAge (1993))
+// console.log (calculateAge (1974))
+
+// function logInfoAbout (Name, year){
+//     const age = calculateAge (year)
+//     if (age > 0){
+//         console.log ('name ' + Name + 'age ' + age)
+//     } else{
+//         console.log ('future')
+//     }
+// }
+
+// logInfoAbout ('Tornike  ' , '2026')
+
+
+
+
+// console.log (cars)
+// console.log (cars.length)
+// console.log (cars [0])
+// console.log (cars [1])
+// console.log (cars [2])
+
+// cars[2] = 'Lamborghini'
+// cars [3] = 'Porsche'
+// console.log (cars)
+
+// const cars = new Array ('Mercedes', 'BMW', 'Audi')
+// console.log (cars)
+
+// const cars = ['Mercedes', 'BMW', 'Audi', 'Lamborghini']
+
+
+// // for ( let i = 0; i < cars.length; i++) {
+// //     const car = cars [i]
+// //     console.log (car)
+// // }
+
+// for (let car of cars )
+// console.log (car)
+
+// const me = {
+//     firsName: 'Tornike',
+//     lastName: 'kvirikashvili',
+//     age: '21',
+//     languages: ['RU', 'EN'],
+//     hasGirlfriend: true,
+
+
+// }
+// console.log (me.firsName)
+// console.log (me['lastName'])
